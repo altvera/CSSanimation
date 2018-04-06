@@ -1,0 +1,89 @@
+body{
+	background-color: #2b3990;
+}
+
+.wrapper{
+	margin: 10px;
+	max-width: 1000px;
+	max-height: 500px;
+}
+
+.container{
+	position: absolute;
+	margin-top:400px;
+	margin-left: 500px;
+}
+
+.circle{
+	width: 30px;
+	height: 30px;
+	background:#fff;
+	border-radius: 50%;
+	position: absolute;
+	animation: anim 5s linear infinite;
+
+}
+}
+
+
+.circle : hover { 
+    -webkit-animation-name:none;
+}
+
+
+
+
+
+@-webkit-keyframes anim{
+	0%{
+		transform-origin: 900% 50%;
+		transform: rotate(0);
+		background-color: #fff;
+		
+	}
+	50%{
+		
+	}
+
+
+
+	100%{
+		transform-origin: 900% 50%;
+		transform: rotate(360deg);
+		background-color: #000;
+		
+	}
+}
+
+
+.circle2 {
+	animation-delay: 1s;
+	width: 30px;
+	height: 30px;
+	background:#000;
+	border-radius: 50%;
+	position: absolute;
+	animation: anima 5s linear infinite;
+	}
+
+	@-webkit-keyframes anima{
+	0%{
+		transform-origin: 900% 50%;
+		transform: rotate(0);
+		background-color: #fff
+		
+
+	}
+
+	50%{
+	
+	}
+
+	100%{
+		transform-origin: 900% 50%;
+		transform: rotate(-360deg);
+		background-color: #000
+	}
+}
+
+
